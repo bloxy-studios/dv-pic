@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local vision runtime copied or downloaded by scripts/copy-vision.ts
+/public/mediapipe
+/public/models/*.task
